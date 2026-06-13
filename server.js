@@ -32,6 +32,8 @@ const MODEL_MAPPING = {
   'gemini-flash':           '@cf/google/gemma-4-26b-a4b-it',
   'deepseek':               '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
   'mistral':                '@cf/mistral/mistral-7b-instruct-v0.1',
+  'kimi'                    '@cf/moonshotai/kimi-k2.7-code'
+  'deepseekv4'              'deepseek/deepseek-v4-pro'
 };
 
 // Default model when no mapping is found
