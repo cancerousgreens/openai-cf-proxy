@@ -19,8 +19,8 @@ const CF_BASE_URL = `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_
 // ── Model mapping: map whatever the client sends → actual CF model name ───────
 // You can add, remove, or change these mappings freely.
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo':          '@cf/meta/llama-3.2-3b-instruct',
-  'gpt-3.5-turbo-instruct': '@cf/meta/llama-3.2-3b-instruct',
+  'gemma':          '@cf/google/gemma-4-26b-a4b-it',
+  'deepseek': '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
   'gpt-4':                  '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
   'gpt-4-turbo':            '@cf/mistralai/mistral-small-3.1-24b-instruct',
   'gpt-4o':                 '@cf/qwen/qwen3-30b-a3b-fp8',
@@ -32,7 +32,7 @@ const MODEL_MAPPING = {
   'gemini-flash':           '@cf/google/gemma-4-26b-a4b-it',
   'deepseek':               '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
   'mistral':                '@cf/mistral/mistral-7b-instruct-v0.1',
-  'kimi':                    '@cf/moonshotai/kimi-k2.7-code',
+  'kimi':                    '@cf/moonshotai/kimi-k2.5',
   'deepseekv4':              'deepseek/deepseek-v4-pro',
 };
 
