@@ -21,18 +21,18 @@ const CF_BASE_URL = `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_
 const MODEL_MAPPING = {
   'gemma':          '@cf/google/gemma-4-26b-a4b-it',
   'deepseek': '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
-  'gpt-4':                  '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
-  'gpt-4-turbo':            '@cf/mistralai/mistral-small-3.1-24b-instruct',
+  'z.ai':                  '@cf/zai-org/glm-4.7-flash', 
+  'grok':            'xai/grok-4.6',
   'gpt-4o':                 '@cf/qwen/qwen3-30b-a3b-fp8',
   'gpt-4o-mini':            '@cf/meta/llama-3.1-8b-instruct-fp8-fast',
   'claude-3-opus':          '@cf/openai/gpt-oss-120b',
-  'claude-3-sonnet':        '@cf/openai/gpt-oss-20b',
-  'claude-3-haiku':         '@cf/meta/llama-3.1-8b-instruct-fp8-fast',
+  'min':        'minimax/m3',
+  'fable':         'anthropic/claude-fable-5',
   'gemini-pro':             '@cf/google/gemma-3-12b-it',
   'gemini-flash':           '@cf/google/gemma-4-26b-a4b-it',
   'deepseek':               '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
   'mistral':                '@cf/mistral/mistral-7b-instruct-v0.1',
-  'kimi':                    '@cf/moonshotai/kimi-k2.5',
+  'kimi':                    'moonshotai/kimi-k3',
   'deepseekv4':              'deepseek/deepseek-v4-pro',
 };
 
