@@ -28,7 +28,7 @@ const MODEL_MAPPING = {
   'opus':          'anthropic/claude-opus-5',
   'min':        'minimax/m3',
   'fable':         'anthropic/claude-fable-5',
-  'gemini-pro':             '@cf/google/gemma-3-12b-it',
+  'v4':             'deepseek/deepseek-v4-pro',
   'gemini-flash':           '@cf/google/gemma-4-26b-a4b-it',
   'deepseek':               '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
   'mistral':                '@cf/mistral/mistral-7b-instruct-v0.1',
