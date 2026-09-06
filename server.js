@@ -25,7 +25,7 @@ const MODEL_MAPPING = {
   'grok':            'xai/grok-4.6',
   'gpt-4o':                 '@cf/qwen/qwen3-30b-a3b-fp8',
   'gpt-4o-mini':            '@cf/meta/llama-3.1-8b-instruct-fp8-fast',
-  'claude-3-opus':          '@cf/openai/gpt-oss-120b',
+  'opus':          'anthropic/claude-opus-5',
   'min':        'minimax/m3',
   'fable':         'anthropic/claude-fable-5',
   'gemini-pro':             '@cf/google/gemma-3-12b-it',
