@@ -37,7 +37,7 @@ const MODEL_MAPPING = {
 };
 
 // Default model when no mapping is found
-const DEFAULT_MODEL = '@cf/meta/llama-3.1-8b-instruct-fp8-fast';
+const DEFAULT_MODEL = ''
 
 // Helper: resolve the incoming model name to a Cloudflare model string
 function resolveModel(requestedModel) {
